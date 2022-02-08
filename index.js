@@ -4,7 +4,7 @@ var cors = require('cors');
 
 app.use(
     cors({
-        credentials: true,
+        credentials: false,
         origin: 'https://loving-hodgkin-f2e7ae.netlify.app/'
     })
 );
